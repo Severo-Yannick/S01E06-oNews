@@ -1,0 +1,19 @@
+body {
+  font-family: sans-serif;
+  line-height: 1.4
+}
+
+.container {
+  display: flex;
+}
+
+.part {
+  width: 50%;
+}
+.part--left {
+  background-color: gray;
+  height: 100vh;
+}
+.part--right {
+  background-color: tan;
+}
