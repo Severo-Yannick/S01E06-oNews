@@ -10,6 +10,8 @@ body {
 .part {
   width: 50%;
 }
+
+/* Part Left */
 .part--left {
   background-color: #35373B;
   background-image: url(../images/nicole.jpg);
@@ -24,10 +26,6 @@ body {
   justify-content: space-between;
   align-items: flex-start;
   padding: 1.2rem;
-}
-.part--right {
-  background-color: tan;
-  margin-left: 50%;
 }
 
 .logo {
@@ -78,4 +76,28 @@ body {
 }
 .menu__item:hover {
   text-decoration: underline;
+}
+
+
+/* Part Right */
+.part--right {
+  margin-left: 50%;
+}
+
+.content__title {
+  background-color: #F9F9F9;
+  padding: 1rem;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 50%;
+  padding: 1rem;
+  border: 2px solid #EAEAEA;
 }
