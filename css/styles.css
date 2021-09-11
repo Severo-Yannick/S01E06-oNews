@@ -11,7 +11,10 @@ body {
   width: 50%;
 }
 .part--left {
-  background-color: gray;
+  background-color: #35373B;
+  background-image: url(../images/nicole.jpg);
+  background-size: cover;
+  background-position: 30% 35%;
   height: 100vh;
   position: fixed;
   top: 0;
