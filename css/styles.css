@@ -23,6 +23,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+  padding: 1.2rem;
 }
 .part--right {
   background-color: tan;
@@ -30,16 +31,51 @@ body {
 }
 
 .logo {
-  background-color: tomato;
+  color: #FFF;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.6em;
+  width: 450px;
+  display: flex;
+  align-items: start;
+  line-height: 1;
+}
+.logo__img {
+  width: 30px;
+}
+.logo__text {
+  margin-left: 0.7rem;
+  margin-right: -0.2rem;
 }
 
 .intro {
-  background-color: yellowgreen;
+  background-color: rgba(200, 200, 200, 0.35);
+  color: #FFF;
+  text-align: right;
   padding: 1rem;
   width: 100%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  text-shadow: 3px 3px 5px rgb(0, 0, 0);
+}
+.intro__title {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.intro__suffix {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 0.5em;
 }
 
 .menu {
-  background-color: violet;
+  color: #FFF;
+  text-shadow: 3px 3px 5px rgb(0, 0, 0);
   align-self: flex-end;
+}
+.menu__item {
+  margin-left: 1rem;
+}
+.menu__item:hover {
+  text-decoration: underline;
 }
