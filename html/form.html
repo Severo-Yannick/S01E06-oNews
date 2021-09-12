@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+ <html lang="fr">
+   <head>
+     <meta charset="UTF-8">
+     <title>Contact | o'News</title>
+     <link rel="stylesheet" href="../css/reset.css">
+     <link rel="stylesheet" href="../css/styles.css">
+   </head>
+   <body>
+     <div class="container">
+        <!-- left part -->
+        <header class="part part--left">
+          <a href="index.html" class="logo">
+            <img class="logo__img" src="../images/onews.svg" alt="Logo du journal oNews">
+            <span class="logo__text">O'clock<br>student<br>news</span>
+          </a>
+          <section class="intro">
+            <h1 class="intro__title">Contactez-nous</h1>
+            <p class="intro__content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae repellendus voluptatum quasi praesentium, consectetur earum molestias accusamus accusantium iusto porro?</p>
+          </section>
+          <nav class="menu">
+            <a class="menu__item" href="#">Plan du site</a>
+            <a class="menu__item" href="#">Mentions légales</a>
+            <a class="menu__item menu__item--active" href="contact.html">Contact</a>
+          </nav>
+        </header> 
+        <!-- right part -->
+        <main class="part part--right content">
+          <h1 class="content__title">Contact</h1>
+          <form class="form" action="contact.html">
+            <div class="field">
+              <label class="field__label" for="your-message">
+                Votre message
+              </label>
+              <textarea id="your-message" name="message" class="field__input" placeholder="Saisissez un message"></textarea>
+            </div>
+            <div class="field">
+              <label for="prenom">Prénom</label>
+              <input placeholder="Saisissez votre prénom" id="prenom" name="prenom" class="field__input" type="text">
+            </div>
+            <div class="field">
+              <label for="nom">Nom</label>
+              <input placeholder="Saisissez votre nom" id="nom" name="nom" class="field__input" type="text">
+            </div>
+            <div class="field">
+              <label for="favorite-color">Couleur préférée</label>
+              <input id="favorite-color" name="favorite-color" class="field__input" type="color">
+            </div>
+            <div class="field">
+              <label for="birthday">Date de naissance</label>
+              <input id="birthday" name="birthday" class="field__input" type="date">
+            </div>
+            <div class="field">
+              <label for="age">Age</label>
+              <input id="age" name="age" class="field__input" type="number">
+            </div>
+            <div class="field">
+              <fieldset>
+                <legend>Langage préféré</legend>
+                <label>
+                  <input name="favorite-language" value="HTML" type="checkbox">
+                  HTML
+                </label>
+                <label>
+                  <input name="favorite-language" value="CSS" type="checkbox">
+                  CSS
+                </label>
+                <label>
+                  <input name="favorite-language" value="JS" type="checkbox">
+                  Javascript
+                </label>
+              </fieldset>
+            </div>
+            <div class="field">
+              <fieldset>
+                <legend>Civilité</legend>
+                <label>
+                  <input name="genre" value="Monsieur" type="radio"> Monsieur
+                </label>
+                <label>
+                  <input name="genre" value="Madame" type="radio"> Madame
+                </label>
+              </fieldset>
+            </div>
+            <div class="field">
+              <label>
+                Comment avez-vous connu notre site ?
+                <select class="field__choices" name="origin">
+                  <option selected value="">Faites votre choix</option>
+                  <option value="pub">Via la pub</option>
+                  <option value="friend">Par des amis</option>
+                  <option value="social-network">Par les réseaux sociaux</option>
+                </select>
+              </label>
+            </div>
+            <button class="form__action" type="submit">Envoyer</button>
+          </form>
+        </main>
+     </div>
+   </body>
+ </html> 
