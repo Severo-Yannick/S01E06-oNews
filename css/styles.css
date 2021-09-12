@@ -154,3 +154,28 @@ body {
 .card__action:hover {
   color: #0056B3;
 }
+
+@media screen and (max-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .logo {
+    font-size: 1.4em;
+    width: 300px;
+  }
+  .part {
+    width: 100vh;
+  }
+  .part--left {
+    position:relative;
+    width: 100%;
+  }
+  .part--right {
+    margin-left: 0%;
+    width: 100%;
+  }
+  .card {
+    width: 100%;
+  }
+}
