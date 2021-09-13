@@ -77,6 +77,9 @@ body {
 .menu__item:hover {
   text-decoration: underline;
 }
+.menu__item--active {
+  color: #007bff;
+}
 
 
 /* Part Right */
@@ -154,6 +157,49 @@ body {
 .card__action:hover {
   color: #0056B3;
 }
+
+/* Form */
+.form {
+  padding: 1rem;
+}
+.field {
+  margin-bottom: 1rem;
+}
+.field__label {
+  margin-bottom: 0.5rem;
+  display: block;
+}
+.field__input {
+  width: 100%;
+  border: 1px solid #35373B;
+  padding: 0.5em;
+}
+textarea.field__input {
+  height: 120px;
+}
+.field__input[type="color"] {
+  padding: 0;
+}
+.field__input:focus {
+  outline: 2px solid #007bff;
+}
+.form__action {
+  padding: 0.8rem;
+  background-color: #007bff;
+  color: white;
+  border: 0;
+  border-radius: 3px;
+}
+.form__action:hover {
+  background-color: #0766f0;
+}
+.form__action:active {
+  box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.field__choices {
+  width: 100%;
+  padding: 0.5rem;
+} 
 
 @media screen and (max-width: 600px) {
   .container {
